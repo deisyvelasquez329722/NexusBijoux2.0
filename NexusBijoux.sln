@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+<<<<<<< HEAD
+VisualStudioVersion = 17.11.35312.102
+=======
+VisualStudioVersion = 17.11.35222.181
+>>>>>>> 061993bb2a9625d916941c85f2f54da78d1e3568
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NexusBijoux.Web", "NexusBijoux.Web\NexusBijoux.Web.csproj", "{404223D7-794C-4AE2-9698-8F47688D4B6D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{404223D7-794C-4AE2-9698-8F47688D4B6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{404223D7-794C-4AE2-9698-8F47688D4B6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{404223D7-794C-4AE2-9698-8F47688D4B6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{404223D7-794C-4AE2-9698-8F47688D4B6D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+<<<<<<< HEAD
+		SolutionGuid = {57513412-D827-4720-A091-86E3F040CC4F}
+=======
+		SolutionGuid = {EAA5B031-A5E7-4F2B-ABE8-6FF15A42E3F1}
+>>>>>>> 061993bb2a9625d916941c85f2f54da78d1e3568
+	EndGlobalSection
+EndGlobal

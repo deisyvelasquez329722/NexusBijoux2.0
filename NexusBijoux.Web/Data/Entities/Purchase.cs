@@ -8,12 +8,15 @@ namespace NexusBijoux.Web.Data.Entities
         [Key]
         public int Purchase_ID { get; set; }
 
-        [ForeignKey("User_ID")]
-        public User User { get; set; }
-
+        // Clave foránea que referencia a la entidad User
         [Display(Name = "Usuario")]
         [Required(ErrorMessage = "El campo '{0}' es requerido.")]
-        public int User_id { get; set; }
+        [ForeignKey("User")]
+        public int User_ID { get; set; }
+
+        // Relación con la entidad User
+        public User User { get; set; }
+
 
         [Display(Name = "Fecha de Compra")]
         [Required(ErrorMessage = "El campo '{0}' es requerido.")]

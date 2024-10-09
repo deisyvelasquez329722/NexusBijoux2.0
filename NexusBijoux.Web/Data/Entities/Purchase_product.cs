@@ -11,20 +11,20 @@ namespace NexusBijoux.Web.Data.Entities
         // Clave foránea que referencia a la entidad User
         [Display(Name = "Usuario")]
         [Required(ErrorMessage = "El campo '{0}' es requerido.")]
-        [ForeignKey("User")]
+        //[ForeignKey("User")]
         public int User_ID { get; set; }
 
         // Relación con la entidad User
-        public User User { get; set; }
+        //public User User { get; set; }
 
         // Clave foránea que referencia a la entidad Product
         [Display(Name = "Producto")]
         [Required(ErrorMessage = "El campo '{0}' es requerido.")]
-        [ForeignKey("Product")]
+        //[ForeignKey("Product")]
         public int Product_ID { get; set; }
 
         // Relación con la entidad Product
-        public Product Product { get; set; }
+        //public Product Product { get; set; }
 
         [Display(Name = "Cantidad")]
         [Required(ErrorMessage = "El campo '{0}' es requerido.")]

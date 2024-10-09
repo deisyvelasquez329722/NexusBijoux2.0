@@ -1,0 +1,33 @@
+﻿namespace NexusBijoux.web.Views.product
+{
+    public class eliminarprodu
+    {
+        {
+    Layout = "_MyLayout";  
+}
+
+<h2>Eliminar Producto</h2>
+
+<div>
+    <h4>¿Estás seguro de que deseas eliminar este producto?</h4>
+    <div>
+        <strong>Nombre:</strong> @Model.Product_Name
+    </div>
+    <div>
+        <strong>Descripción:</strong> @Model.Product_Description
+    </div>
+    <div>
+        <strong>Precio:</strong> @Model.Price
+    </div>
+    <div>
+        <strong>Categoría:</strong> @Model.Category
+    </div>
+
+    <form asp-action="DeleteConfirmed" method="post">
+        <input type="hidden" asp-for="Product_ID" />
+        <button type="submit" class="btn btn-danger">Eliminar</button>
+        <a href="@Url.Action("Index")" class="btn btn-secondary">Cancelar</a>
+    </form>
+</div>
+    }
+}

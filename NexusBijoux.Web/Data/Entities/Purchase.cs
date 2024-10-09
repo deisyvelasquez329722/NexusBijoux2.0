@@ -8,7 +8,7 @@ namespace NexusBijoux.Web.Data.Entities
         [Key]
         public int Purchase_ID { get; set; }
 
-        [ForeignKey("User_id")]
+        [ForeignKey("User_ID")]
         public User User { get; set; }
 
         [Display(Name = "Usuario")]
